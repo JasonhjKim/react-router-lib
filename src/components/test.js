@@ -61,7 +61,45 @@ render() {
 	)
 }
 
+//Parent to Child commuication
+class Parent extends Component {
+	render() {
+		return (<Child passed="pass"/>);
+	}
+}
+class Child extends Component {
+	constructor(props){
+		super(props);
+	}
+	render() {
+		return(<li>{this.props.passed}</li>)
+	}
+}
 
+//Child to Parent Communication
+class Parent extends Component {
+	constructor() {
+		super();
+		this.state = {value:""}
+	}
+	setFromChildValue(valueFromChild) {
+		this.setState = {value:valueFromChild}
+	}
+	render() {
+		return(<Child getChildValue={this.setFromChildValue}/>)
+	}
+}
+class Child extends Component {
+	constructor(props) {
+		super(props)
+	}
+	handleClick(e) {
+		this.props.getChildValue(valueToParent);
+	}
+	render() {
+		return(<button onClick={this.handleClick}>Change</button>)
+	}
+}
 
 ///////////////////////////////
 ///////////////////////////////

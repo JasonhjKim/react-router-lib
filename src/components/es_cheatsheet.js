@@ -9,14 +9,14 @@ export default class Es extends Component {
 			flex-direction: column;
 		`
 		const Title = styled.h3 `
-			margin: 1em;
+			margin: 0 1em 1em 1em;
 			font-weight: 700;
 			font-size: 1.5em;
 		`
 
 		const Text = styled.p `
 			border-left: 4px solid gray;
-			margin: 1em 1em;
+			margin: 0 1em 1em 1em;
 			padding-left: 0.5em;
 			font-size: 0.9em;
 		`
@@ -27,8 +27,8 @@ export default class Es extends Component {
 					<pre>
 					- one time guaranteed return of some future value (plaecholder)<br/>- when the value is figured out - the promise is resolved or rejected</pre>
 				</Text>
-				<Snippet syntax="js" code={`
-function displayAtRandomTime() {
+				<Snippet syntax="js" code={
+`function displayAtRandomTime() {
   return new Promise(function(res, rej) {
     if(Math.random() > 0.5) {
       res("yes"):

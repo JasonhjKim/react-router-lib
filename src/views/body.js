@@ -21,7 +21,6 @@ export default class Body extends Component {
 			align-items: center;
 			flex: 4;
 			max-width: 100%;
-			border: 1px solid black;
 			overflow-y: auto;
 			min-height: 100vh;
 			background: white;
@@ -37,8 +36,8 @@ export default class Body extends Component {
 			display: flex;
 			flex-direction: column;
 			background-color: white;
-			border: 1px solid black;
 			width: 700px;
+			margin-top: 2em;
 
 			@media (max-width:1024px) {
 				width: 100%;

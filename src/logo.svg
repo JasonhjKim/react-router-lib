@@ -1,27 +1,30 @@
 
-<svg width="192px" height="111px" viewBox="0 0 192 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="202px" height="202px" viewBox="0 0 202 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M61,6.17930201 L54.8887534,0 L2.84217094e-14,55.5 L54.8887534,111 L61,104.820698 L61,104.45138 L12.5877437,55.5 L61,6.54862005 L61,6.17930201 Z" id="path-1"></path>
-        <path d="M192,6.05454545 L186,0 L131,55.5 L186,111 L192,104.945455 L192,103.936364 L144,55.5 L192,7.06363636 L192,6.05454545 Z" id="path-2"></path>
+        <path d="M55.2036199,5.59212852 L49.67308,0 L2.84217094e-14,50.2262443 L49.67308,100.452489 L55.2036199,94.8603602 L55.2036199,94.5261357 L11.3916233,50.2262443 L55.2036199,5.92635299 L55.2036199,5.59212852 Z" id="path-1"></path>
+        <path d="M173.755656,5.47922666 L168.325792,0 L118.552036,50.2262443 L168.325792,100.452489 L173.755656,94.973262 L173.755656,94.0600576 L130.316742,50.2262443 L173.755656,6.3924311 L173.755656,5.47922666 Z" id="path-2"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Custom-Preset-2-Copy" transform="translate(-104.000000, -145.000000)">
-            <g id="Group-4" transform="translate(104.000000, 145.000000)">
-                <g id="Combined-Shape-Copy">
-                    <use fill="#CBEAEF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                    <path stroke="#979797" stroke-width="1" d="M60.6444944,6.53089231 L54.8887534,0.711054887 L0.703223718,55.5 L54.8887534,110.288945 L60.6444944,104.469108 L61,104.820698 L60.5,104.820698 L60.5,104.45138 L61,104.45138 L60.6444944,104.80297 L11.88452,55.5 L60.6444944,6.19702975 L61,6.54862005 L60.5,6.54862005 L60.5,6.17930201 L61,6.17930201 L60.6444944,6.53089231 Z"></path>
-                </g>
-                <g id="Combined-Shape-Copy-2" transform="translate(161.500000, 55.500000) scale(-1, 1) translate(-161.500000, -55.500000) ">
-                    <use fill="#CBEAEF" fill-rule="evenodd" xlink:href="#path-2"></use>
-                    <path stroke="#979797" stroke-width="1" d="M191.5,6.26032817 L186,0.710328175 L131.703929,55.5 L186,110.289672 L191.5,104.739672 L191.5,104.142146 L143.296071,55.5 L191.5,6.85785364 L191.5,6.26032817 Z"></path>
-                </g>
-                <g id="Group-3" transform="translate(57.000000, 16.000000)" stroke="#979797">
-                    <g id="Group-2">
-                        <g id="Group">
-                            <polygon id="Path" fill="#FFFFFF" points="16 31 39 0 39 62"></polygon>
-                            <polygon id="Path" fill="#D4FDED" points="39 79 0 62 78 62"></polygon>
+        <g id="Custom-Preset" transform="translate(-39.000000, -91.000000)">
+            <g id="Group-5" transform="translate(40.000000, 92.000000)">
+                <circle id="Oval" stroke="#979797" fill="#FFFFFF" cx="100" cy="100" r="100"></circle>
+                <g id="Group-4" transform="translate(12.669683, 49.773756)">
+                    <g id="Combined-Shape-Copy">
+                        <use fill="#CBEAEF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#979797" stroke-width="1" d="M54.7036199,5.59212852 L55.2036199,5.59212852 L54.8481143,5.94371882 L49.67308,0.711054887 L0.703223718,50.2262443 L49.67308,99.7414338 L54.8481143,94.5087699 L55.2036199,94.8603602 L54.7036199,94.8603602 L54.7036199,94.5261357 L54.8309397,94.5261357 L55.2036199,94.5261357 L54.8481143,94.877726 L10.6883995,50.2262443 L54.8481143,5.57476269 L55.2036199,5.92635299 L54.7036199,5.92635299 L54.7036199,5.59212852 Z"></path>
+                    </g>
+                    <g id="Combined-Shape-Copy-2" transform="translate(146.153846, 50.226244) scale(-1, 1) translate(-146.153846, -50.226244) ">
+                        <use fill="#CBEAEF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#979797" stroke-width="1" d="M173.255656,5.68500938 L168.325792,0.710328175 L119.255965,50.2262443 L168.325792,99.7421605 L173.255656,94.7674793 L173.255656,94.2658403 L129.612813,50.2262443 L173.255656,6.18664838 L173.255656,5.68500938 Z"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(51.583710, 14.479638)" stroke="#979797">
+                        <g id="Group-2">
+                            <g id="Group">
+                                <polygon id="Path" fill="#FFFFFF" points="14.479638 28.0542986 35.2941176 0 35.2941176 56.1085973"></polygon>
+                                <polygon id="Path" fill="#D4FDED" points="35.2941176 71.4932127 0 56.1085973 70.5882353 56.1085973"></polygon>
+                            </g>
                         </g>
                     </g>
                 </g>
