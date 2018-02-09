@@ -85,8 +85,8 @@ export default class Landing extends Component {
 			<Container>
 				<Title>My collection of cheatsheets</Title>
 				<BGroup>
-					<ButtonA href="http://github.com"><Button><i className="fa fa-github"></i> Github</Button></ButtonA>
-					<ButtonA href="react-router-lib.herokuapp.com"><Button><i className="fa fa-bookmark"></i> Heroku</Button></ButtonA>
+					<ButtonA href="https://github.com/JasonhjKim/react-router-lib"><Button><i className="fa fa-github"></i> Github</Button></ButtonA>
+					<ButtonA href="https://react-router-lib.herokuapp.com"><Button><i className="fa fa-bookmark"></i> Heroku</Button></ButtonA>
 				</BGroup>
 				<Text>
 				This is a simple repository of cheatsheets of some web technology I use every day. I have realized while developing web, there are many proprietary syntaxes that needs to be memorized. I have created this project to reference them anytime.
