@@ -4,9 +4,6 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/styles/hljs';
 
 export default class Snippet extends Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		const Container = styled.div `
 			display: flex;
@@ -19,13 +16,6 @@ export default class Snippet extends Component {
 		const Wrapper = styled.div `
 			border: 1px solid black;
 			border-top: none;
-		`
-		const Circles = styled.div `
-			display: flex;
-			flex-directin: row;
-			flex: 1;
-			align-items: center;
-
 		`
 		const HeaderWrapper = styled.div `
 			display: flex;

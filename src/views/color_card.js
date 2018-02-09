@@ -2,9 +2,6 @@ import React, { Component} from 'react';
 import styled from 'styled-components';
 
 export default class ColorCard extends Component {
-    constructor(props){
-        super(props);
-    }
     render() {
         const Container = styled.div `
             display: flex;
@@ -14,7 +11,6 @@ export default class ColorCard extends Component {
             width: 150px;
             margin: 1em;
             justify-content: center;
-            border-bottom: 1px solid ${this.props.color}
 
             &:hover {
 

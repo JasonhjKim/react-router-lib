@@ -12,7 +12,7 @@ export default class Logo extends Component {
 		`
 		return(
 			<Container>
-				<img src={require("../logo.svg")} />
+				<img src={require("../logo.svg")} alt="logo" />
 			</Container>
 			
 		)

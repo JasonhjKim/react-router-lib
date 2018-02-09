@@ -18,3 +18,16 @@ body {
 .link:visited {
 	color: black;
 }
+
+td, th{
+	border: 1px solid black;
+	padding: 1em;
+}
+
+td:hover {
+	border-bottom: 1px solid #b0b0b0;
+}
+
+th:hover {
+	border-bottom: 1px solid #b0b0b0;
+}

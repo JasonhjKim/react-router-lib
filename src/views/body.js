@@ -1,16 +1,15 @@
 import React, { Component} from 'react';
 import styled from 'styled-components';
-import { Route } from 'react-router'
-import Snippet from './snippet';
+import { Route } from 'react-router';
 import Landing from '../components/init_cheatsheet';
 import ReactScratch from '../components/react_scratch_cheatsheet';
 import Rct from '../components/react_cheatsheet';
 import Rdx from '../components/redux_cheatsheet';
-import Flux from '../components/flux_cheatsheet';
 import Es6 from '../components/es_cheatsheet';
 import Mongoose from '../components/mongoose_cheatsheet';
 import Restful from '../components/restful_cheatsheet';
 import Color from '../components/color_cheatsheet';
+import Mocha from '../components/mocha_mongoose_cheatsheet';
 
 
 export default class Body extends Component {
@@ -51,7 +50,8 @@ export default class Body extends Component {
 					<Route path="/react_scratch" component={ReactScratch}/>
 					<Route path="/react" component={Rct}/>
 					<Route path="/redux" component={Rdx}/>
-					<Route path="/flux" component={Flux}/>
+					{/* <Route path="/flux" component={Flux}/> */}
+					<Route path="/mocha" component={Mocha}/>
 					<Route path="/es6" component={Es6}/>
 					<Route path="/mongoose" component={Mongoose}/>
 					<Route path="/restful" component={Restful}/>

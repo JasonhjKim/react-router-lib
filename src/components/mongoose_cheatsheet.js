@@ -90,21 +90,6 @@ newUser.posts.push({
 	title: "Sample Title",
 	content: "Sample Content"
 });`}/>
-
-				<Text>
-					<pre></pre>
-				</Text>
-				<Snippet syntax="js" code={``}/>
-
-				<Text>
-					<pre></pre>
-				</Text>
-				<Snippet syntax="js" code={``}/>
-
-				<Text>
-					<pre></pre>
-				</Text>
-				<Snippet syntax="js" code={``}/>
 			</Container>
 
 		)

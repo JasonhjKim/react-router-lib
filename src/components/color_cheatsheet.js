@@ -13,13 +13,6 @@ export default class Color extends Component {
 			font-weight: 700;
 			font-size: 1.5em;
 		`
-
-		const Text = styled.p `
-			border-left: 4px solid gray;
-			margin: 0 0 1em 0;
-			padding-left: 0.5em;
-			font-size: 0.9em;
-		`
 		const CardContainer = styled.div `
 			display: flex;
 			flex-flow: row wrap;

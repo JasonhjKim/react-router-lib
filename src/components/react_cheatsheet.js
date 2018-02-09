@@ -144,8 +144,14 @@ class Child extends Component {
 	render() {
 		return(<Child getChildValue={this.setFromChildValue}/>)
 	}
-}
-class Child extends Component {
+}`}/>
+
+				<Text>
+					<pre>
+					</pre>
+				</Text>
+				<Snippet syntax="js" code={
+`class Child extends Component {
 	constructor(props) {
 		super(props)
 	}
@@ -156,12 +162,6 @@ class Child extends Component {
 		return(<button onClick={this.handleClick}>Change</button>)
 	}
 }`}/>
-
-				<Text>
-					<pre>
-					</pre>
-				</Text>
-				<Snippet syntax="js" code={``}/>
 
 			</Container>
 

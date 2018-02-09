@@ -12,17 +12,10 @@ export default class Restful extends Component {
 			font-weight: 700;
 			font-size: 1.5em;
 		`
-
-		const Text = styled.p `
-			border-left: 4px solid gray;
-			margin: 0 1em 1em 1em;
-			padding-left: 0.5em;
-			font-size: 0.9em;
-		`
 		return(
 			<Container>
 			<Title>Representation State Transfer Routes</Title>
-			<table className="table" style={{border:"1px solid black"}}>
+			<table className="table">
 				<thead>
 					<tr>
 						<th>NAME</th>

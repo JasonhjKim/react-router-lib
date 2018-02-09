@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import styled from 'styled-components';
 import Navigation from './navigation';
 import Logo from './logo';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 export default class Sidemenu extends Component {
 	render() {
@@ -16,7 +15,7 @@ export default class Sidemenu extends Component {
 			height: 100%;
 			width: 250px;
 			position: fixed;
-			overflow-y: scroll;
+			overflow-y: auto;
 			top: 0;
 			bottom: 0;
 			@media(max-width: 780px) {
@@ -33,14 +32,6 @@ export default class Sidemenu extends Component {
             justify-content: center;    
                 this is what causing sidebar content stacking*/
 		`
-		const Wrapper = styled.div `
-
-		`
-		const Nav = styled.div `
-			display: flex;
-			flex-direction: column;
-			color: white;
-		`
 		const Title = styled.div `
 			display: flex;
 			flex-direction: column;
@@ -54,7 +45,7 @@ export default class Sidemenu extends Component {
 				</LogoWrapper>
 				<Title>
 					<h2>My Cheatsheets</h2>
-					<h4 style={{textAlign:"right"}}>by H.J.K</h4>
+					<h4>by H.J.K</h4>
 				</Title>
 				<Navigation/>
 			</Container>
