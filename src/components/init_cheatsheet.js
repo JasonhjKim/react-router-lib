@@ -70,6 +70,9 @@ export default class Landing extends Component {
 			&:hover {
 				border-bottom: 1px solid ${this.randomColorGenerator};
 			}
+			&:visited {
+				color: black;
+			}
 		`
 		const ButtonA = styled.a `
 			color: #b0b0b0;
