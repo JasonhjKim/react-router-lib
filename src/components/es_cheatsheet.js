@@ -210,12 +210,6 @@ function outer(a) {
   }
 }
 outer(5)(5) = 10;`}/>
-
-				<Text>
-					<pre>
-					</pre>
-				</Text>
-				<Snippet syntax="js" code={``}/>
 			</Container>
 		)
 	}
