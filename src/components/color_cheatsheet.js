@@ -9,7 +9,7 @@ export default class Color extends Component {
 			flex-direction: column;
 		`
 		const Title = styled.h3 `
-			margin: 0 0 1em 0;
+			margin: 0 1em 1em 1em;
 			font-weight: 700;
 			font-size: 1.5em;
 		`
